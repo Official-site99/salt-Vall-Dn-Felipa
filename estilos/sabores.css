@@ -1,0 +1,32 @@
+
+.seccion-sabor-helados{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.secc-helados {
+  font-size: calc(1.475rem + 2.7vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+@media (min-width: 1200px) {
+    .secc-helados {
+      font-size: 3.5rem;
+    }
+}
+.container .card{
+  background: #ccc; 
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  transition: all 0.25%;
+  overflow: hidden;
+}
+
+.container .card img{
+  width: 100%;
+  height: auto;
+}
+.icon-build{
+  color: black;
+  font-size: 25px;
+}

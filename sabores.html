@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable-no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="estilos/sabores.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">
+    <!--Iconos FontAwesome-->
+    <script src="https://kit.fontawesome.com/6d0471830c.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/40b2f21548.js" crossorigin="anonymous"></script>
+    <link rel="small icon" href="img/img-icon-logo.PNG" type="image/x-icon">
+    <title>Nuestro Menú</title>
+  </head>
+  <body>
+      <!--Cabezera-->
+
+      <header class="container-fluid bg-warning d-flex justify-content-center">
+          <p class="header-atten text-dark mb-0 p-2 fs-6">Todos los días desde las 9AM hasta las 10PM </p>
+      </header>
+
+      <div class="container-fluid  p-2 text-center" id="logo-heladeria">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo-salteñas-DF-removebg-preview-2-1-removebg-preview.png" class="img-logo img-fluid" alt="logo heladeria">
+        </a>
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light p-2 px-4" id="menu">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active mx-4">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item active mx-4">
+              <a class="nav-link" href="quienessomos.html">¿Quiénes Somos?</a>
+            </li>
+            <li class="nav-item active mx-4">
+              <a class="nav-link" href="sabores.html">Nuestro Menú</a>
+            </li>
+            <li class="nav-item active mx-4">
+              <a class="nav-link" href="reservas.html">Reservas</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--Titulo-->
+      <section class="seccion-sabor-helados py-5 mt-3" style="background-image: url('img/salteñas-3-listo-1.jpg');">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="text-center text-white">
+                <h1 class="secc-helados font-weight-bold fs-5 fw-bolder">NUESTROS MENÚ</h1>
+            </div>
+        </div>
+      </section>
+
+      <!--Seccion Menú-->
+
+      <section class="py-5">
+        <div class="col-12">
+          <h1 class="text-center text-upercase fs-1 font-weight-bold text-warning">TIPOS DE SALTEÑAS</h1>
+        </div>
+      </section>
+
+      <div class="container">   
+        <div class="card-deck mt-3 row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+    
+          <div class="card text-center border-info h-100">
+            <img class="card-img-top" src="img/salteña-pollo-1-1.png">
+            <div class="card-body p-4">
+              <h5 class="card-title font-weight-bold">Salteña de Pollo</h5>
+              <p class="card-text">Empanadas dulces o picantes rellenas con carne de pollo, caldo, huevo y otros ingredientes típicos.</p>
+              <h5 class="card-text font-weight-bold">05.00 Bs.</h5>
+            </div>
+          </div>          
+    
+          <div class="card text-center border-info h-100">
+            <img class="card-img-top" src="img/salteña-carne-1-1.jpg">
+            <div class="card-body p-4">
+              <h5 class="card-title font-weight-bold">Salteña de Carne</h5>
+              <p class="card-text">Empanadas dulces o picantes rellenas con carne de res, caldo, papa y otros ingredientes típicos.</p>
+              <h5 class="card-text font-weight-bold">05.00 Bs.</h5>
+            </div>
+          </div>          
+      
+          <div class="card text-center border-info h-100">
+            <img class="card-img-top" src="img/salteña-charque (1).png">
+            <div class="card-body p-4">
+              <h5 class="card-title font-weight-bold">Salteña de Charque</h5>
+              <p class="card-text">Empanadas dulces o picantes rellenas con charque de res, caldo, huevo y otros ingredientes típicos.</p>
+              <h5 class="card-text font-weight-bold">05.00 Bs.</h5>
+            </div>
+          </div>          
+    
+        </div>
+      </div>  
+
+      <div class="container col-12 text-center">
+        <button class="btn btn-warning mt-3 col-auto text-white mx-auto my-4 text-capitalize">
+          <a href="reservas.html" style="text-decoration: none">
+            <span class="icon-build">
+              <i class="fa-solid fa-cart-arrow-down"></i>  Realizar Pédido
+            </span>
+          </a>
+        </button>  
+      </div>
+
+
+
+      <section class="py-5">
+        <div class="col-12">
+          <h1 class="text-center text-upercase fs-1 font-weight-bold text-warning">TIPOS DE BEBIDAS</h1>
+        </div>
+      </section>
+
+      <div class="container">   
+        <div class="card-deck mt-3 row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+    
+          <div class="card text-center border-info">
+            <img class="card-img-top" src="img/jugos-frutas-1-2.jpg">
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold">Jugos de Frutas</h5>
+              <p class="card-text">Batidos de frutas con leche.</p>
+              <h5 class="card-text font-weight-bold">Sabores de Frutas</h5>
+              <div class="row my-2">
+                <div class="col-md-12">
+                  <ul class="list-group">
+                    <li class="list-group">Jugo de Frutilla</li>
+                    <li class="list-group">Jugo de Guineo</li>
+                    <li class="list-group">Jugo de Papaya</li>
+                    <li class="list-group">Jugo de Kiwi</li>
+                  </ul>
+                </div>
+              </div>
+              <h5 class="card-text font-weight-bold">04.00 Bs.</h5>
+            </div>
+          </div>          
+    
+          <div class="card text-center border-info">
+            <img class="card-img-top" src="img/img-mocochinchi-1.jpg">
+            <div class="card-body p-4">
+              <h5 class="card-title font-weight-bold">Refrescos Típicos</h5>
+              <p class="card-text">Bebidas refrescantes típicas de la región.</p>
+              <h5 class="card-text font-weight-bold">Sabores de Refrescos</h5>
+              <div class="row my-2">
+                <div class="col-md-12">
+                  <ul class="list-group">
+                    <li class="list-group">Refresco de Lima</li>
+                    <li class="list-group">Refresco de Mocochinchi</li>
+                    <li class="list-group">Refresco de Chicha</li>
+                    <li class="list-group">Refresco de Tamarindo </li>
+                  </ul>
+                </div>
+              </div>
+              <h5 class="card-text font-weight-bold">03.50 Bs.</h5>
+            </div>
+          </div>          
+      
+          <div class="card text-center border-info">
+            <img class="card-img-top" src="img/img-gaseosas-1.jpg">
+            <div class="card-body p-4">
+              <h5 class="card-title font-weight-bold">Gaseosas</h5>
+              <p class="card-text">Contamos con varios tipos de gaseosas pequeñas.</p>
+              <h5 class="card-text font-weight-bold">Marcas de Gaseosas</h5>
+              <div class="row my-2">
+                <div class="col-md-12">
+                  <ul class="list-group">
+                    <li class="list-group">Coca Cola</li>
+                    <li class="list-group">Fanta</li>
+                    <li class="list-group">Sprite</li>
+                    <li class="list-group">Simba</li>
+                  </ul>
+                </div>
+              </div>
+              <h5 class="card-text font-weight-bold">02.50 Bs. - 09.00 Bs.</h5>
+            </div>
+          </div>          
+    
+        </div>
+      </div>  
+
+      <div class="container col-12 text-center">
+        <button class="btn btn-warning mt-3 col-auto text-white mx-auto my-4 text-capitalize">
+          <a href="reservas.html" style="text-decoration: none">
+            <span class="icon-build">
+              <i class="fa-solid fa-cart-arrow-down"></i>  Realizar Pédido
+            </span>
+          </a>
+        </button>  
+      </div>
+
+      <!--Pie de pagina-->
+      <footer class="pie-pagina font-small blue mt-5 pt-4">
+        <div class="container-fluid text-center text-md-left">
+          <div class="row">
+      
+            <div class="col-md-6 mt-md-0 mt-3">
+              <h5 class="text-uppercase">Redes Sociales</h5>
+              <p>Puedes visitarnos en nuestras redes sociales para más información.</p>
+
+              <ul class="social-networks">
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/SalteVallegrandinasDFelipa">
+                      <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                      </span>
+                  </a>
+               </li>
+               <li class="list-inline-item">
+                  <a href="https://twitter.com/i/flow/login">
+                      <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                      </span>
+                  </a>
+               </li>
+               <li class="list-inline-item">
+                  <a href="https://www.instagram.com/?hl=es">
+                      <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                      </span>
+                  </a>
+               </li>
+               <li class="list-inline-item">
+                  <a href="https://www.pinterest.com">
+                      <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-pinterest-p fa-stack-1x fa-inverse"></i>
+                      </span>
+                  </a>
+               </li>
+              </ul>
+            </div>
+      
+            <hr class="clearfix w-100 d-md-none pb-3">
+      
+            <div class="col-md-3 mb-md-0 mb-3">
+              <h5 class="text-uppercase">Conócenos</h5>
+      
+              <ul class="list-unstyled text-white">
+                <li>
+                  <a href="#" class="text-white text-decoration-none">Terminos y Condiciones</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white text-decoration-none">Politica de Privacidad</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white text-decoration-none">Politica de Cookies</a>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="col-md-3 mb-md-0 mb-3">
+              <h5 class="text-uppercase">Contactos</h5>
+              <ul class="list-unstyled pb-3 ">
+                <li>
+                  <a href="#" class="text-white text-decoration-none"><i class="far fa-envelope"></i> salt-valle-DñFelipa@gmail.com</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white text-decoration-none"><i class="fa fa-phone-square-alt"></i> (+591)63502356-71663627</a>
+                </li>
+              </ul>
+      
+            </div>
+          </div>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+          <p class="fs-5"><small class="text-white-50">© 2022 Salteñas Vallegrandinas | Doña Felipa - Todos los Derechos Reservados</small></p>
+        </div> 
+      </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  </body>
+</html>

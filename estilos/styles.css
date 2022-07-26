@@ -1,0 +1,111 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+/*Cabecera*/
+#logo-heladeria{
+    background-color: #C4390B;
+    align-items: center;
+}
+.img-logo{
+    width: 400px;
+    
+}
+#menu{
+    background-color: #b61c1c;   
+    justify-content: space-between;
+}
+#menu a{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+/*Seccion Carrusel*/
+.carousel{
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.carousel-inner img {
+    width: 100%;
+    max-height: auto;
+}
+.carousel-inner{
+    height: 600px;
+}
+.carousel-position{
+    top: 35%;
+    font-weight:bold;
+}
+.carrusel-img-filter{
+    filter: brightness(0.7);
+}
+
+/*Seccion Comentario*/
+.img-comment{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/*Seccion tarjetas*/
+.container .card img{
+    height: 500px;
+    width: auto;
+}
+
+.card-img-filter{
+    filter: brightness(0.5);
+}
+.card-img-overlay{
+    transition-duration: 0.6s;
+}
+.card-effect:hover .card-img-overlay{
+    transform: scale(0.9);
+}
+
+/*Footer*/
+.pie-pagina{
+    background-color: #C4390B;   
+    color: white;
+    width: 100vw;
+    text-decoration:none
+}
+.social-networks{
+    padding: 0;
+}
+
+.social-networks a{
+    color: #fff;
+}
+.social-networks a .fa-inverse{
+    color: #C4390B;
+}
+.text-footer{
+    padding: 15px 0px;
+}
+
+/*Media Querie*/
+@media screen and (max-width: 375px){
+    .carousel-inner{
+        height: 268px;
+    }
+    .header-atten{
+        font-size: 14px;
+    }
+    .footer-contacts{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 425px){
+    .carousel-inner{
+        height: 268px;
+    }
+}
+@media screen and (max-width: 768px){
+    .carousel-inner{
+        height: 268px;
+    }
+}

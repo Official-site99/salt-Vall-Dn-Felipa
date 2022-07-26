@@ -1,0 +1,53 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.img-shop{
+    width: 100%;
+}
+
+.img-valores{
+    width: 160px;
+    height: 140px;
+}
+
+@media (min-width: 1024px) {
+    .descriptcion-nosotros h1 {
+      font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .descriptcion-nosotros h1 {
+      text-align: center;
+    }
+
+    .seccion-valores{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+/*Pantallas SM*/
+@media (max-width: 576px) {
+    .secc-iconos {
+      flex-wrap: wrap;
+      justify-content: center !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .secc-iconos {
+      flex-wrap: wrap;
+      justify-content: justify !important;
+    }
+    .secc-valores-text, h3, p{
+        flex-wrap: wrap;
+        text-align: center !important;
+    }
+}
+
+
+
+

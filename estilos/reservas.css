@@ -1,0 +1,17 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+#contenedor-formulario{
+    background-color: #a13586;
+    border-radius: 5px;
+    max-width: 700px;
+}
+.contenedor-titulo{
+    color: white;
+    
+}
+.img-contact{
+    width: 280px;
+}
